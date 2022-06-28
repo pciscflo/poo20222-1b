@@ -4,12 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Feria {
+
+    private static Feria feria = new Feria();
     private List<Concursante> arregloConcursantes;
 
-    public Feria() {
+    private Feria() {
         arregloConcursantes = new ArrayList<>();
     }
 
+    public static Feria obtenerInstancia(){
+        return feria;
+    }
     public void registrar(Concursante concursante){
           arregloConcursantes.add(concursante);
     }
