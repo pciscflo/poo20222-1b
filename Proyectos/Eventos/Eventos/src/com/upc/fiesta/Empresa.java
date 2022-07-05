@@ -4,9 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Empresa {
+
+    private static Empresa empresa = new Empresa();
+
     private List<Evento> arregloEventos;
 
-    public Empresa() {
+    public static Empresa obtenerInstancia(){
+        return empresa;
+    }
+
+    private Empresa() {
         this.arregloEventos = new ArrayList<>();
     }
     public void registrar(Evento evento){

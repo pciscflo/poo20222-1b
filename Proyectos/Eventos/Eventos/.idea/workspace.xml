@@ -7,12 +7,14 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Eventos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/upc/fiesta/Empresa.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/upc/fiesta/Evento.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/upc/fiesta/EventoCumpleaños.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/upc/fiesta/EventoInfantil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/upc/fiesta/EventoIntegracion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/upc/fiesta/Pantalla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/upc/fiesta/Factoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/upc/fiesta/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/upc/fiesta/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/upc/fiesta/Pantalla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/upc/fiesta/Pantalla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656982616754</updated>
-      <workItem from="1656982618869" duration="3299000" />
+      <workItem from="1656982618869" duration="5168000" />
     </task>
     <servers />
   </component>
