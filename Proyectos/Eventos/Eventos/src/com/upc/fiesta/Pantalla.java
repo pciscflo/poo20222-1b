@@ -2,13 +2,31 @@ package com.upc.fiesta;
 
 public class Pantalla {
     public static void main(String[] args) {
-        Evento evento1 = Factoria.obtenerEvento("CUM","30","true","true","true");
-        Evento evento2 = Factoria.obtenerEvento("INF","40","true","Lobos","true");
-        Evento evento3 = Factoria.obtenerEvento("INT","80","true","Atlas");
         Empresa empresa  = Empresa.obtenerInstancia();
-        empresa.registrar(evento1);
-        empresa.registrar(evento2);
-        empresa.registrar(evento3);
+        try {
+            Evento evento1 = Factoria.obtenerEvento("CUM", "35", "true", "true", "true");
+             evento1.validarNumeroPersonas();
+            empresa.registrar(evento1);
+        }
+        catch (Exception e){
+           System.out.println(e.getMessage());
+       }
+        try {
+            Evento evento2 = Factoria.obtenerEvento("INF", "-40", "true", "Lobos", "true");
+            evento2.validarNumeroPersonas();
+            empresa.registrar(evento2);
+        }catch(Exception e)
+        {
+            System.out.println(e.getMessage());
+        }
+        try {
+            Evento evento3 = Factoria.obtenerEvento("INT", "80", "true", "Atlas");
+            evento3.validarNumeroPersonas();
+            empresa.registrar(evento3);
+        }catch(Exception e)
+        {
+            System.out.println(e.getMessage());
+        }
         //listado1
         for(Evento evento:empresa.getArregloEventos())
         {

@@ -10,6 +10,12 @@ public abstract class Evento {
     public Evento() {
     }
 
+    public void validarNumeroPersonas() throws Exception{
+        if (numeroPersonas<=0){
+            throw new Exception("La EDAD No puede ser negativa");//customizada
+        }
+    }
+
     public Evento(int numeroPersonas, boolean catering) {
         this.numeroPersonas = numeroPersonas;
         this.catering = catering;
