@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecbc0adb-22b3-408b-b80b-eb18e45a11a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eventos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/upc/fiesta/EventoCumpleaños.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/upc/fiesta/EventoInfantil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/upc/fiesta/EventoIntegracion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/upc/fiesta/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/upc/fiesta/Empresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/upc/fiesta/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/upc/fiesta/Evento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/upc/fiesta/Pantalla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/upc/fiesta/Pantalla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Githubs/poo20222-1b/Proyectos/Facturacion/Facturacion",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -82,7 +72,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656982616754</updated>
-      <workItem from="1656982618869" duration="7457000" />
+      <workItem from="1656982618869" duration="7641000" />
+      <workItem from="1656993851506" duration="77000" />
     </task>
     <servers />
   </component>

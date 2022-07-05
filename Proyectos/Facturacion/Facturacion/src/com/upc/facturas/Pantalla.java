@@ -16,6 +16,10 @@ public class Pantalla {
         System.out.printf("%.2f\n",factura.calcularIGV());
         System.out.println(factura.calcularTotal());
 
+        Administrador administrador = new Administrador();
+        administrador.registrar(factura);
+
+
 
 
     }
